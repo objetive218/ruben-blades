@@ -1,11 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=PT+Sans&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
 header{
     background-color: bisque;
     padding: 20px;
+    letter-spacing: 3px;
 }
 .caja{
     width: 940px;
     position: relative;
-    margin : 0 auto
+    margin : 0 auto;
 }
 .botones li:hover a{
     background-color: aqua;
